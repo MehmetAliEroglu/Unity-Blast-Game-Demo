@@ -1,4 +1,5 @@
 # Blast Game Mechanics Prototype
+![Gameplay Demo](BlastGame.gif)
 
 A scalable Match-2 puzzle game template focused on clean code principles and algorithm efficiency.
 
