@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2912236165790375791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7785225660215518716}
+  - component: {fileID: 1102410746343979610}
+  m_Layer: 0
+  m_Name: BoardManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7785225660215518716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2912236165790375791}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1102410746343979610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2912236165790375791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 570e121f931a75d459c9886bebf6bf29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelData: {fileID: 11400000, guid: 5a6e6c356106773428fc7d4706c3f1d9, type: 2}
+  blockPrefab: {fileID: 4569888818226975422, guid: 687fd345a79bbee4b8d3fa2d0b1758d7, type: 3}
+  blockStyles:
+  - name: Yellow
+    iconDefault: {fileID: 7985042018138347892, guid: 63418d857324b6042b6638429ca40c82, type: 3}
+    iconA: {fileID: 414921610477409366, guid: 8bdec2c4b60c637438ee35e40e97d815, type: 3}
+    iconB: {fileID: -6038182108957047188, guid: 8426dce406f3bf743855090da2c74430, type: 3}
+    iconC: {fileID: -7586140276444505714, guid: c4d506c3f14d1474ab26df9e0031c6ff, type: 3}
+  - name: Blue
+    iconDefault: {fileID: -4624011131410558117, guid: 49aa8645769a37d498252f97eaf503e9, type: 3}
+    iconA: {fileID: -8923791490832965560, guid: 66b6a6b4b22945046bd1db10573044bb, type: 3}
+    iconB: {fileID: -812536794617419617, guid: 898619bcfd361834e979c6b635b51704, type: 3}
+    iconC: {fileID: -2915790821876642617, guid: c47a533337e552349afe14e7dbc682b7, type: 3}
+  - name: Green
+    iconDefault: {fileID: -7364823422338184377, guid: 5e618ae7e0241a0478470f1623f1be8c, type: 3}
+    iconA: {fileID: 3291406690555587084, guid: b1127ce00e4d0ad44a5933d8c1a1ba39, type: 3}
+    iconB: {fileID: -2176861220364285743, guid: 1ea217712789c284698d7a66cf099e47, type: 3}
+    iconC: {fileID: 6787462199040882907, guid: 45b4cafcacadc5c479dd32a82fb12d4a, type: 3}
+  - name: Pink
+    iconDefault: {fileID: 742919511911846744, guid: 701f8e56f278f0d4aba3931ce2672b86, type: 3}
+    iconA: {fileID: 3519922619171193912, guid: e901f614042bd8d4fb6a5194a5864be8, type: 3}
+    iconB: {fileID: -578229812787739823, guid: 427b8237ac0e4814eb98ffe906a513f2, type: 3}
+    iconC: {fileID: -7755864299962720444, guid: 506ca4c52600f8745a4ccfbb9d99456f, type: 3}
+  - name: Purple
+    iconDefault: {fileID: 8161472552560778960, guid: 5b30d31398b25bb4487561dce30b84bc, type: 3}
+    iconA: {fileID: -6416537123964203564, guid: 05575e2c564e9824486fe83dfc916578, type: 3}
+    iconB: {fileID: -2693315669398477313, guid: 676527213c354e44197b4c218c8c8075, type: 3}
+    iconC: {fileID: 1386842339749069192, guid: 5b745def34ec46e4fa1eea43ec7b2e8d, type: 3}
+  - name: Red
+    iconDefault: {fileID: 887387325851772620, guid: 87ea7b8af286ac943afa6efb9bffd565, type: 3}
+    iconA: {fileID: 5413993767572339121, guid: 5d960a63140d95c40900916b2520a7e3, type: 3}
+    iconB: {fileID: -8329150480449018202, guid: 960fdb565fc303e4d883d4fa3faef7cf, type: 3}
+    iconC: {fileID: -257787592545182917, guid: fefdafaaa53cf9e41924dd5e96779d36, type: 3}
+  inputLocked: 0
